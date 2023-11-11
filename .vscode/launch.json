@@ -27,8 +27,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA.LoveBabbar/week4-searchingSorting/sorting",
-      "program": "d:/DSA.LoveBabbar/week4-searchingSorting/sorting/build/Debug/outDebug",
+      "cwd": "d:/DSA-LoveBabbar/week4-searchingSorting/sorting",
+      "program": "d:/DSA-LoveBabbar/week4-searchingSorting/sorting/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
