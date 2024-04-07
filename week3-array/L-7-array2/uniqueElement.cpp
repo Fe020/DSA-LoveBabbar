@@ -26,8 +26,9 @@
 
 
 
-// using XOR
 
+
+// using XOR
 #include<iostream>
 using namespace std;
 void uniqueSol(int arr[],int size)
