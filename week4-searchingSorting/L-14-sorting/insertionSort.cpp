@@ -1,23 +1,37 @@
-#include<algorithm>
+//we keep iterating the vector and when we find any element where v[i-1]>v[i]
+//we keep swapping the v[i] using loop inside loop, till it is sorted
+
+//iterate krte h hrr element ko aur tbtk swap krte h usko jbtk uska position shi na ho
+
+
 #include<iostream>
 #include<vector>
-using namespace std;
 
+using namespace std;
+void swap(int &i,int &j)
+{
+    int temp;
+    temp=i;
+    i=j;
+    j=temp;
+}
+void insertionSort(vector<int>& v)
+{
+    for(int i=0;i<v.size();i++)
+    {
+        for(int j=i;j>=0;j--)
+        {
+            if(v[j]<v[j-1] && j-1>=0)
+            swap(v[j],v[j-1]);
+        }
+    }
+}
 int main()
 {
-    vector<int> v={0,3,2,5,1,4};
-    int n=v.size();
-    for(int i=0;i<n;i++)
+    vector<int> v={5,4,3,7,6,0};
+    insertionSort(v);
+    for(auto i:v)
     {
-        for(int j=i;j>-1;j--)
-        {
-            if(v[j]>v[i])
-            swap(v[j],v[i]);
-        }
-        for(int m=0;m<n;m++)
-        {
-            cout<<v[m];
-        }
-        cout<<endl;
+        cout<<i<<" ";
     }
 }

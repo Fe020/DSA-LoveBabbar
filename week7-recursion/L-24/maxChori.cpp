@@ -1,3 +1,5 @@
+//max chori in non-adjecent ghars
+
 #include <iostream>
 #include <vector>
 using namespace std;

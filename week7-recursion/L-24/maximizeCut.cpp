@@ -1,3 +1,5 @@
+// maximize the cuts
+
 #include <iostream>
 #include <algorithm>
 #include <climits>

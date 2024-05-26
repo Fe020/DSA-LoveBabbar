@@ -6,7 +6,8 @@
     "ostream": "cpp",
     "*.tcc": "cpp",
     "expected": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "new": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
